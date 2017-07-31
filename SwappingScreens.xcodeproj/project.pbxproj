@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A3467C181F032BF200F7422B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3467C171F032BF200F7422B /* AppDelegate.swift */; };
-		A3467C1A1F032BF200F7422B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3467C191F032BF200F7422B /* ViewController.swift */; };
+		A3467C1A1F032BF200F7422B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3467C191F032BF200F7422B /* LoginVC.swift */; };
 		A3467C1D1F032BF200F7422B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3467C1B1F032BF200F7422B /* Main.storyboard */; };
 		A3467C1F1F032BF200F7422B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3467C1E1F032BF200F7422B /* Assets.xcassets */; };
 		A3467C221F032BF200F7422B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3467C201F032BF200F7422B /* LaunchScreen.storyboard */; };
+		A3467C2A1F032D2000F7422B /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3467C291F032D2000F7422B /* MusicListVC.swift */; };
+		A3467C2C1F0330EB00F7422B /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3467C2B1F0330EB00F7422B /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3467C141F032BF200F7422B /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3467C171F032BF200F7422B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3467C191F032BF200F7422B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3467C191F032BF200F7422B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A3467C1C1F032BF200F7422B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3467C1E1F032BF200F7422B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3467C211F032BF200F7422B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3467C231F032BF200F7422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3467C291F032D2000F7422B /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		A3467C2B1F0330EB00F7422B /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A3467C171F032BF200F7422B /* AppDelegate.swift */,
-				A3467C191F032BF200F7422B /* ViewController.swift */,
+				A3467C191F032BF200F7422B /* LoginVC.swift */,
 				A3467C1B1F032BF200F7422B /* Main.storyboard */,
 				A3467C1E1F032BF200F7422B /* Assets.xcassets */,
 				A3467C201F032BF200F7422B /* LaunchScreen.storyboard */,
 				A3467C231F032BF200F7422B /* Info.plist */,
+				A3467C291F032D2000F7422B /* MusicListVC.swift */,
+				A3467C2B1F0330EB00F7422B /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3467C1A1F032BF200F7422B /* ViewController.swift in Sources */,
+				A3467C2A1F032D2000F7422B /* MusicListVC.swift in Sources */,
+				A3467C2C1F0330EB00F7422B /* PlaySongVC.swift in Sources */,
+				A3467C1A1F032BF200F7422B /* LoginVC.swift in Sources */,
 				A3467C181F032BF200F7422B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
